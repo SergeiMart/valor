@@ -1,0 +1,245 @@
+.body {
+    
+margin: 0;
+padding: 0;
+width: 1900px;
+background: rgb(59, 59, 59);
+
+}
+a:active{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a{
+  text-decoration: none; 
+  color: #FFFFFF; 
+}
+a:hover{
+    color: #FF4656;
+}
+.header {
+width: 1660px;
+height: 120px;
+background: #1F2326;
+border-radius: 30px 30px 0  0;
+margin:auto ;
+margin-top: 30px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.table {
+    padding: 40px;
+}
+table {
+    border-collapse: collapse;   
+}
+
+
+.td{
+    border-right:2px solid white;
+    padding-right: 50px;
+}
+td:last-child {
+    padding-left: 50px;
+}
+.nav {
+    width: 800px;
+    margin: auto;
+    margin-left: 300px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -75px;
+}
+.li {
+    list-style: none;
+    font-family: 'Druk Wide', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.account {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+    margin-top: -50px;
+    align-items: center;
+}
+.account span {
+    margin-left: 20px;
+    font-family: 'Druk Wide', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.account img{
+    border-radius: 50%;
+}
+.main {
+width: 1660px;
+height: 935px;
+margin:auto ;
+background: #FF4656;;
+background-image: url('background.png');
+background-size: 100%;
+background-repeat: no-repeat;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.heroes {
+display: flex;
+justify-content: space-between;
+width: 1400px;
+height: 600px;
+padding-top: 0;
+padding-left: 300px;
+
+}
+.hero1 ,.hero2 ,.hero3 ,.hero4 {
+width: 280px;
+height: 600px;
+background:  #1F2326;
+border: 2px solid #1F2326;
+border-top-left-radius: 15px;
+}
+.hero4 {
+    background:  #F8F8F8;  
+}
+.phoenix {
+    margin-top: 20px;
+    margin-left: -27px;
+    position: absolute;
+}
+.jett {
+    margin-top: 20px;
+    margin-left: -27px;
+    position: absolute;
+}
+.sova {
+    margin-top: 20px;
+    margin-left: -27px;
+    position: absolute;
+}
+.sage {
+    margin-top: 20px;
+    margin-left: -27px;
+    position: absolute;
+}
+.hero1::before {
+    content: 'United Kingdom';
+    position: absolute;
+    font-family: 'Druk Wide', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+top: 355px;
+left: 360px;
+
+color: #FF4656;
+
+transform: rotate(90deg);
+}
+.hero2::before {
+    content: 'South Korea';
+    position: absolute;
+    font-family: 'Druk Wide', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+top: 340px;
+left: 760px;
+
+color: #FF4656;
+
+transform: rotate(90deg);
+}
+.hero3::before {
+    content: 'Russia';
+    position: absolute;
+    font-family: 'Druk Wide', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+top: 300px;
+left: 1170px;
+
+color: #FF4656;
+
+transform: rotate(90deg);
+}
+.hero4::before {
+    content: 'China';
+    position: absolute;
+    font-family: 'Druk Wide', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+top: 290px;
+left: 1550px;
+
+color: #FF4656;
+
+transform: rotate(90deg);
+}
+
+
+
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 100px;
+    margin-top: -50px;
+    padding-left: 330px;
+    margin-bottom: 70px;
+}
+.skill {
+    width: 280px;
+    height: 65px;
+    background:  #1F2326;
+    border: 2px solid #F8F8F8;
+    text-align: center;
+    padding-top: 20px;
+}
+.skill:last-child {
+    background:  #F8F8F8;
+    border: 2px solid #1F2326;
+    
+}
+.agent {
+padding-left: 110px;
+    padding-top: 100px;
+   width: 0;
+ height: 0;
+}
+.abilities ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1800px;
+   margin-left: -150px;
+
+}
+.ability {
+    list-style: none;
+}
+.footer {
+    width: 1660px;
+height: 120px;
+background: white;
+border-radius: 0 0 30px 30px ;
+margin:auto ;
+margin-bottom: 30px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
